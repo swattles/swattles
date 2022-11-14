@@ -1,0 +1,86 @@
+/* global colours */
+:root {
+    --dark--blue:#13293d;
+    --white:#ffff;
+    --blue:#104a80; 
+    --grey:#c4c4c4;
+
+}
+
+/* || General styles */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+/* Header */
+header {
+    padding: 30px;
+    text-align: center;
+    background: var(--dark--blue);
+    color: var(--grey);
+}
+
+/* || Navigation bar */ 
+
+nav {
+    display: flex;
+    background-color: var(--blue);
+    justify-content: right;
+}
+
+nav a {
+    color: var(--white);
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+/* || Main area */
+
+main {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+main h2 {
+    color: var(--blue);
+}
+
+.about {
+   padding: 20px;
+}
+
+
+/* || Footer area */
+
+footer {
+    bottom: 0;
+    padding: 30px;
+    text-align: center;
+    line-height: 1;
+    background: var(--dark--blue);
+    color: var(--grey);
+    margin-top: auto;
+}
+
+footer a:hover {
+    color: var(--grey)
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
