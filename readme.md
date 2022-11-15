@@ -1,6 +1,8 @@
 # Welcome to my Portfolio
 
-Here is my in progress portfolio page. 
+This is v1.0.0 of my Portfolio.
+
+Stay tuned for updates. 
 
 ----------------
 Sarah Wattles
